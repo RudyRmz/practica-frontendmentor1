@@ -37,3 +37,68 @@ body{
     background-position: center;
 }
 
+.card__text{
+    padding: 2.5em 1.7em;
+    text-align: center;
+}
+
+.card__title{
+    font-size: 1.7rem;
+    color: var(--dark-blue);
+}
+
+.card__paragraph{
+    color: var(--desaturated-blue);
+    line-height: 1.5;
+    margin: 1.2em 0 1.5em;
+}
+
+.card__plan{
+    display: flex;
+    background-color: var(--very-pale-blue);
+    padding: 1.2em 1em;
+    align-items: center;
+    border-radius: .5em;
+}
+
+.card__icon{
+    margin-right: .8em;
+}
+
+.card__name{
+    font-size: 1rem;
+    color: var(--dark-blue);
+}
+
+.card__price{
+    margin-left: auto;
+}
+
+.card__change{
+    margin-left: auto;
+    color: var(--bright-blue);
+}
+
+.card__cta{
+    display: block;
+    background-color: var(--bright-blue);
+    text-decoration: none;
+    color: #fff;
+    margin-top: 2em;
+    border-radius: .5em;
+    padding: 1em;
+    font-weight: 700;
+    box-shadow: 0 10px 10px -8px var(--bright-blue);
+}
+
+.card__cta--gray{
+    margin-top: .7em;
+    background-color: #fff;
+    color: var(--desaturated-blue);
+    box-shadow: none;
+}
+
+
+
+
+
